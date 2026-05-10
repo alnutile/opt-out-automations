@@ -1,0 +1,22 @@
+{
+  "name": "opt-out-handler",
+  "version": "0.1.0",
+  "description": "Compliance opt-out email handler. Zapier SDK durable integration layer demo.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dashboard": "node dashboard.js",
+    "mockemail": "node mock-email.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@zapier/zapier-sdk": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "@zapier/zapier-sdk-cli": "^0.44.0"
+  }
+}
