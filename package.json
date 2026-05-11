@@ -14,7 +14,8 @@
   "dependencies": {
     "@anthropic-ai/sdk": "latest",
     "@zapier/zapier-sdk": "latest",
-    "dotenv": "latest"
+    "dotenv": "latest",
+    "openai": "^6.37.0"
   },
   "devDependencies": {
     "@zapier/zapier-sdk-cli": "^0.44.0"
